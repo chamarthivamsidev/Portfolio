@@ -1,5 +1,4 @@
 #skills {
-  border: 1px solid yellow;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   background-color: black;
@@ -110,12 +109,19 @@ h2 {
     height: 40%;
     margin-top: 1em;
   }
-  .backend_skills {
-    width: 16.2%;
-    height: 140px;
-    border: 1px solid white;
+  .backend,
+  .hosting {
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
   }
-  .backend_skills img {
+  .backend_skills,
+  .hosting_skills {
+    width: 26%;
+    height: 140px;
+  }
+  .backend_skills img,
+  .hosting_skills img {
     width: 60%;
     height: 40%;
   }

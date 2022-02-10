@@ -1,11 +1,9 @@
 .container {
   max-width: 1140px;
   margin: auto;
-  border: 1px solid white;
 }
 
 #about {
-  border: 1px solid yellow;
   font-family: "Poppins", sans-serif;
 }
 .about_flex {
@@ -80,6 +78,7 @@
   }
   .about_flex {
     flex-direction: column;
+    min-height: 600px;
   }
   .about_img {
     width: 70%;
