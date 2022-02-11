@@ -103,6 +103,7 @@
   .about_content .text-1 {
     font-size: 20px;
     text-align: center;
+    margin-top: 1em;
   }
   .about_content .text-2 {
     font-size: 40px;
@@ -120,6 +121,8 @@
   }
   .desc {
     font-size: 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   .cv-btn {
     text-align: center;
