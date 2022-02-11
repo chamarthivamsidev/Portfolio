@@ -49,13 +49,13 @@ let project_btns = document.getElementsByClassName("pro_btn");
 let arr = [
   "https://github.com/chamarthivamsidev/Bella_Vita_Organic_Clone_Backend",
   "https://bellavitaorganic-cloned.herokuapp.com/",
-  "https://www.google.com/",
+  "https://drive.google.com/file/d/1CXIXyCD3x1BlCKs8ubolfX4rXC0cqi8U/view?usp=sharing",
   "https://github.com/chamarthivamsidev/kohls_clone",
   "https://chamarthivamsidev.github.io/kohls_clone/home.html",
-  "https://www.google.com/",
+  "https://drive.google.com/file/d/11vIKAntz70pz6hh9eLUiYZrwc68lRQ6P/view?usp=sharing",
   "https://github.com/chamarthivamsidev/MovieDB",
   "https://chamarthivamsidev.github.io/MovieDB/",
-  "https://www.google.com/",
+  "https://drive.google.com/file/d/1Zg61I9kAvPh3dUYO6ipIfBaW8csM9Rrt/view?usp=sharing",
 ];
 
 console.log("project_btns:", project_btns);
