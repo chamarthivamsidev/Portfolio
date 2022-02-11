@@ -5,6 +5,9 @@
 
 #about {
   font-family: "Poppins", sans-serif;
+  background-color: #000;
+  color: white;
+  border: 1px solid white;
 }
 .about_flex {
   display: flex;
@@ -73,7 +76,6 @@
 @media (max-width: 767px) {
   #about {
     padding-top: 100px;
-    border: 1px solid red;
   }
   .container {
     height: auto;
@@ -92,7 +94,6 @@
   .about_content {
     width: 90%;
     height: 420px;
-    border: 1px solid yellow;
   }
   .about_content .text-1 {
     font-size: 20px;

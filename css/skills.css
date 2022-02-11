@@ -1,7 +1,10 @@
 #skills {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background-color: black;
+  border: 1px solid yellow;
+  margin-top: 50px;
+  padding-top: 65px;
 }
 .skills_flex {
   height: 30em;
@@ -86,6 +89,7 @@
 }
 .skill_title {
   color: white;
+  font-size: 0.9em;
   margin-top: 1em;
 }
 h1 {
