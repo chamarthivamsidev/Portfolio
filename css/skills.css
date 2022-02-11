@@ -22,12 +22,13 @@
 }
 .backend {
   display: flex;
-  justify-content: space-around;
-  width: 55%;
+  justify-content: space-evenly;
+  width: 52%;
   margin-left: 14em;
+  border: 1px solid red;
 }
 .backend_skills {
-  width: 16.2%;
+  width: 17.2%;
   height: 140px;
   border: 1px solid white;
   border-radius: 5px;
@@ -49,7 +50,7 @@
 }
 .hosting {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 40%;
   margin-left: 18em;
 }
@@ -118,6 +119,8 @@ h2 {
     width: 100%;
     margin-left: 0;
     flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-around;
   }
   .backend_skills,
   .hosting_skills {
