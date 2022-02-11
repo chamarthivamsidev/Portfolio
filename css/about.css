@@ -7,7 +7,6 @@
   font-family: "Poppins", sans-serif;
   background-color: #000;
   color: white;
-  /* border: 1px solid white; */
 }
 .about_flex {
   display: flex;
@@ -72,6 +71,12 @@
   background-color: #fff;
   color: #000;
 }
+.social_logos {
+  display: flex;
+  width: 45%;
+  margin-top: 1em;
+  justify-content: space-evenly;
+}
 
 @media (max-width: 767px) {
   #about {
@@ -111,12 +116,18 @@
     text-align: center;
   }
   .typing {
-    color: teal;
+    color: coral;
   }
   .desc {
     font-size: 18px;
   }
   .cv-btn {
     text-align: center;
+  }
+  .social_logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
   }
 }

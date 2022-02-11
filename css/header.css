@@ -101,6 +101,7 @@ html {
 .navbar.sticky .icon.cancel-btn {
   top: 10px;
 }
+
 @media (max-width: 868px) {
   body.disabledScroll {
     overflow: hidden;
