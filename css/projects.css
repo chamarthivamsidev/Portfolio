@@ -1,5 +1,5 @@
 #projects {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-top: 50px;
   font-size: 18px;
   padding-top: 65px;
@@ -8,7 +8,7 @@
 .project_flex {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   min-height: 1050px;
   flex-wrap: wrap;
 }
