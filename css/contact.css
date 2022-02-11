@@ -1,5 +1,4 @@
 #contacts {
-  border: 1px solid white;
   margin-top: 40px;
   font-size: 18px;
   padding-top: 65px;
@@ -9,7 +8,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid red;
 }
 .connect {
   width: 42%;
