@@ -104,6 +104,9 @@ h2 {
 }
 
 @media (max-width: 767px) {
+  #skills {
+    margin-top: 4em;
+  }
   .skills_logo_container {
     width: 26%;
     height: 140px;
