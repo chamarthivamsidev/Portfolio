@@ -1,4 +1,3 @@
-
 const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menu = document.querySelector(".menu-list");

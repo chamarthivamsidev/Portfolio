@@ -1,0 +1,8 @@
+.footer_flex {
+  min-height: 50px;
+  color: white;
+  text-align: center;
+}
+.footer_flex p {
+  margin-top: 1em;
+}
