@@ -19,10 +19,9 @@
 }
 .about_content {
   width: 58%;
-  height: 350px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 .about_content .text-1 {
   font-size: 27px;
@@ -51,6 +50,7 @@
 }
 .cv-btn {
   text-align: left;
+  margin-top: 25px;
 }
 .cv-btn a {
   font-size: 14px;
@@ -63,6 +63,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.5s ease;
+  text-decoration: none;
 }
 .cv-btn a:hover {
   background-color: #fff;
@@ -71,14 +72,15 @@
 
 @media (max-width: 767px) {
   #about {
-    padding-top: 30px;
+    padding-top: 100px;
+    border: 1px solid red;
   }
   .container {
     height: auto;
   }
   .about_flex {
     flex-direction: column;
-    min-height: 600px;
+    min-height: 650px;
   }
   .about_img {
     width: 70%;
@@ -89,7 +91,8 @@
   }
   .about_content {
     width: 90%;
-    height: 380px;
+    height: 420px;
+    border: 1px solid yellow;
   }
   .about_content .text-1 {
     font-size: 20px;
