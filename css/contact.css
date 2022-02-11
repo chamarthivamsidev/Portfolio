@@ -34,6 +34,16 @@
   color: white;
   margin-left: 1.2em;
 }
+.social_logos_2 {
+  display: flex;
+  width: 80%;
+  margin-top: 1em;
+  justify-content: space-evenly;
+}
+.social_logos_2 a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 .send_form {
   width: 38%;
   text-align: center;

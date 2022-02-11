@@ -4,7 +4,6 @@ const menu = document.querySelector(".menu-list");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 const links = document.getElementsByClassName("direct");
-console.log("links:", links);
 
 menuBtn.onclick = () => {
   menu.classList.add("active");
@@ -58,7 +57,6 @@ let arr = [
   "https://drive.google.com/file/d/1Zg61I9kAvPh3dUYO6ipIfBaW8csM9Rrt/view?usp=sharing",
 ];
 
-console.log("project_btns:", project_btns);
 for (let i = 0; i < project_btns.length; i++) {
   project_btns[i].addEventListener("click", () => {
     window.open(`${arr[i]}`);
