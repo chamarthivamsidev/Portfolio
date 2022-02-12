@@ -314,17 +314,31 @@
           </div>
           <div class="send_form">
             <h3>Send Message</h3>
-            <form>
-              <input type="text" placeholder="Name" name="name" /><br />
-              <input type="email" placeholder="Email" name="email" /><br />
+            <form id="form">
+              <input
+                type="text"
+                placeholder="Name"
+                name="name"
+                id="name"
+                required
+              /><br />
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                id="email"
+                required
+              /><br />
               <textarea
                 cols="20"
                 rows="7"
                 placeholder="Message..."
                 name="message"
+                id="message"
+                required
               ></textarea
               ><br />
-              <input type="submit" value="send" />
+              <input type="submit" value="send" id="send" />
             </form>
           </div>
         </div>

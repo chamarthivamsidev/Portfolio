@@ -62,3 +62,28 @@ for (let i = 0; i < project_btns.length; i++) {
     window.open(`${arr[i]}`);
   });
 }
+
+let form = document.getElementById("form");
+let submit = document.getElementById("send");
+
+submit.addEventListener("click", (e) => {
+  e.preventDefault();
+  formData();
+});
+
+async function formData() {
+  let data = {
+    Name: form.name.value,
+    Email: form.email.value,
+    Message: form.message.value,
+  };
+  data = JSON.stringify(data);
+  let res = await fetch("https://sheetdb.io/api/v1/1b4kcf78zuceu", {
+    method: "POST",
+    body: data,
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+  let result = await res.json();
+}
