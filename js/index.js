@@ -65,6 +65,9 @@ for (let i = 0; i < project_btns.length; i++) {
 
 let form = document.getElementById("form");
 let submit = document.getElementById("send");
+let fname = document.getElementById("name");
+let email = document.getElementById("email");
+let message = document.getElementById("message");
 
 submit.addEventListener("click", (e) => {
   e.preventDefault();
@@ -77,13 +80,41 @@ async function formData() {
     Email: form.email.value,
     Message: form.message.value,
   };
-  data = JSON.stringify(data);
-  let res = await fetch("https://sheetdb.io/api/v1/1b4kcf78zuceu", {
-    method: "POST",
-    body: data,
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
-  let result = await res.json();
+
+  if (data.Name === "" || data.Email === "" || data.Message === "") {
+    alert("all fields are mandatory");
+    data.Name === ""
+      ? (fname.style.border = "3px dotted red")
+      : (fname.style.border = "none");
+    data.Email === ""
+      ? (email.style.border = "3px dotted red")
+      : (email.style.border = "none");
+    data.Message === ""
+      ? (message.style.border = "3px dotted red")
+      : (message.style.border = "none");
+  } else {
+    fname.style.border = "none";
+    email.style.border = "none";
+    message.style.border = "none";
+
+    data = JSON.stringify(data);
+    let res = await fetch("https://sheetdb.io/api/v1/1b4kcf78zuceu", {
+      method: "POST",
+      body: data,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    let result = await res.json();
+    if (result.created === 1) {
+      alert("Message Sent");
+      form.reset();
+    }
+  }
+}
+
+function validateEmail(email) {
+  const re =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
 }
