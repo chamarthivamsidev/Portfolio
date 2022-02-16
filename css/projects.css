@@ -96,6 +96,16 @@
 .pro_btn:hover {
   background-color: black;
 }
+.live {
+  background-color: red;
+}
+.code {
+  background-color: rgb(123, 136, 106);
+  color: white;
+}
+.demo {
+  background-color: #286dab;
+}
 @media (max-width: 600px) {
   .pro {
     width: 80%;

@@ -118,3 +118,14 @@ function validateEmail(email) {
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
 }
+
+let movie = document.getElementById("movie");
+let movie_db = document.getElementById("movie_db");
+
+movie.addEventListener("mouseenter", () => {
+  movie_db.src = "./images/movie.gif";
+});
+
+movie.addEventListener("mouseleave", () => {
+  movie_db.src = "./images/projects/movie_db.jpg";
+});
