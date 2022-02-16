@@ -49,13 +49,21 @@
   font-size: 0.8em;
   text-align: justify;
 }
-.pro .pro_desc .pro_desc_techs {
+.pro .pro_desc .bella_techs {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 88%;
   margin: auto;
 }
-.pro .pro_desc .pro_desc_techs .pro_desc_techs_title {
+.movie_tech,
+.kohls_tech {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+}
+
+/* .pro .pro_desc .pro_desc_techs .pro_desc_techs_title {
   width: 19%;
   height: 1.4em;
   color: rgb(8, 8, 8);
@@ -66,7 +74,7 @@
 .pro .pro_desc .pro_desc_techs .pro_desc_techs_title p {
   font-size: 0.7em;
   font-weight: 600;
-}
+} */
 
 .pro .pro_btns {
   height: 20%;
