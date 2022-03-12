@@ -1,7 +1,7 @@
 #skills {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  background-color: black;
+  /* background-color: black; */
   /* border: 1px solid yellow; */
   margin-top: 50px;
   padding-top: 65px;
@@ -36,6 +36,7 @@
   align-items: center;
   box-shadow: 1px 1px 8px #e6e6e6;
   margin-top: 1.5em;
+  transition: 0.3s;
 }
 .backend_skills img {
   width: 60%;
@@ -62,6 +63,7 @@
   align-items: center;
   box-shadow: 1px 1px 8px #e6e6e6;
   margin-top: 1.5em;
+  transition: 0.3s;
 }
 .hosting_skills img {
   width: 60%;
@@ -78,6 +80,7 @@
   align-items: center;
   box-shadow: 1px 1px 8px #e6e6e6;
   margin-top: 1.5em;
+  transition: 0.3s;
 }
 .skills_logo_container img {
   width: 60%;

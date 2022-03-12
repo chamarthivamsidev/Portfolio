@@ -5,7 +5,7 @@
 
 #about {
   font-family: "Poppins", sans-serif;
-  background-color: #000;
+  /* background-color: #000; */
   color: white;
 }
 .about_flex {
@@ -76,6 +76,9 @@
   width: 45%;
   margin-top: 1em;
   justify-content: space-evenly;
+}
+.social_logos a {
+  transition: 0.2s;
 }
 .social_logos a:hover {
   cursor: pointer;

@@ -36,7 +36,7 @@ window.onscroll = () => {
 $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Full Stack Web Developer", "Hodophile"],
+    strings: ["Full Stack Web Developer", "Hodophile", "Coding Enthusiast"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -55,6 +55,9 @@ let arr = [
   "https://github.com/chamarthivamsidev/MovieDB",
   "https://chamarthivamsidev.github.io/MovieDB/",
   "https://drive.google.com/file/d/1Zg61I9kAvPh3dUYO6ipIfBaW8csM9Rrt/view?usp=sharing",
+  "https://github.com/yeti201/spotify-clone",
+  "https://spotify-clone8.netlify.app/",
+  "https://drive.google.com/file/d/1zstDLf23FLdgJ-JYrNzalaKYxuUkF6Sl/view?usp=sharing",
 ];
 
 for (let i = 0; i < project_btns.length; i++) {

@@ -40,6 +40,9 @@
   margin-top: 1em;
   justify-content: space-evenly;
 }
+.social_logos_2 a {
+  transition: 0.2s;
+}
 .social_logos_2 a:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -55,6 +58,7 @@
   border: none;
   font-size: 1em;
   padding: 8px;
+  outline: none;
 }
 .send_form input[type="submit"] {
   width: 40%;
@@ -75,6 +79,7 @@
   font-size: 1em;
   margin-top: 1.5em;
   padding: 5px;
+  outline: none;
 }
 
 h3 {
