@@ -97,9 +97,11 @@
     min-height: 650px;
   }
   .about_img {
+  
     width: 70%;
   }
   .about_img img {
+    margin-top: 40px;
     width: 70%;
     height: 70%;
   }
